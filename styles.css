@@ -167,10 +167,7 @@
     color: var(--main-red);
   }
 
-  .quote-container,
-  .quote,
-  .quote-author,
-  .quote-author-title {
+  .quote-container {
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
@@ -180,6 +177,53 @@
     align-items: center !important;
     width: 100%;
   }
+
+  .quote {
+    text-align: center;
+  }
+
+  .quote-author {
+    text-align: center;
+
+  }
+
+  .quote-author-title {
+    text-align: center;
+
+  }
+
+  /* .quote-container {
+
+  } */
+
+  /* .quote-container > p {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: ghostwhite;
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+  } */
+
+  /* .quote, .quote-author, .quote-author-position {
+    color: ghostwhite;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+  } */
+
+  /* p .quote {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
 
   /* Projects section */
 
